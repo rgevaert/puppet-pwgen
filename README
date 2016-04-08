@@ -1,3 +1,14 @@
 pwgen
 
 This is the pwgen module.
+
+```
+include pwgen
+
+$password = $fqdn ? {
+    'myhost1.example.com'  => 'test123',
+    default                => pwgen(),
+}
+```
+Note that on every run the password will change.
+
