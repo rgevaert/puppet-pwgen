@@ -6,9 +6,10 @@ This is the pwgen module.
 include pwgen
 
 $password = $fqdn ? {
-    'myhost1.example.com'  => 'test123',
+    # Length 20
+    'myhost1.example.com'  => pwgen(20)',
+    # Default length, 8
     default                => pwgen(),
 }
 ```
 Note that on every run the password will change.
-
