@@ -4,7 +4,6 @@ This is the pwgen module.
 
 ##  Build status
 
-
 [![Build Status](https://travis-ci.org/rgevaert/puppet-pwgen.svg?branch=master)](https://travis-ci.org/rgevaert/puppet-pwgen)
 
 ## Usage
